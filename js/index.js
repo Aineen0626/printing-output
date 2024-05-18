@@ -7,28 +7,27 @@ let b = 5;
 let c;
 
 //DECLARE EXPERIMENT//
-let experiment = `[
-    let a = 3;
-    let b = 5;
-    let c;
-    ------------
-    a + b = ${a + b};
-    a - b = ${a - b};
-    a * b = ${a * b};
-    a / b = ${a / b};
-    a % b = ${a % b};
-    a += b = ${a += b};
-    a -= b = ${a -= b};
-    a *= b = ${a *= b};
-    a /= b = ${a /= b};
-    a %= b = ${a %= b};
-    a == b = ${a == b};
-    a != b = ${a != b};
-    a > b = ${a > b};
-    a < b = ${a < b};
-    !a && !c = ${!a && !c};
-    !a || !c = ${!a || !c};
-]`;
+let experiment = `
+     let a = 3;
+     let b = 5;
+     let c;
+     ------------
+     a + b = ${a + b}
+     a - b = ${a - b}
+     a * b = ${a * b}
+     a / b = ${a / b}
+     a % b = ${a % b}
+     a += b = ${a += b}
+     a -= b = ${a -= b}
+     a *= b = ${a *= b}
+     a /= b = ${a /= b}
+     a %= b = ${a %= b}
+     a == b = ${a == b}
+     a != b = ${a != b}
+     a > b = ${a > b}
+     a < b = ${a < b}
+     !a && !c = ${!a && !c}
+     !a || !c = ${!a || !c}`
 
 //PRINT//
 console.log(experiment);
