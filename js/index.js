@@ -47,7 +47,7 @@ let email = "abdu0626@algonquinlive.com";
 
 // Declare variable output
                   // INTERPOLATION 
-let output =  `My name is ${first_name} ${last_name}. You can contact me at ${email}.`;
+let output = `"My name is ${first_name} ${last_name}. You can contact me at ${email}.";`
 
 // print:
 console.log(output);
